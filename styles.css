@@ -1,0 +1,28 @@
+header {
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+}
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+.header-left {
+    background-color: blue;
+}
+.header-left > div {
+    height: calc(100% - 100px);
+    width: calc(20% - 20px);
+    border: 1px solid black;
+    background-color: blueviolet;
+}
+.header-right > div {
+    height: calc(100% - 100px);
+    width: calc(33% - 33px);
+    border: 1px solid black;
+    background-color: brown;
+}
