@@ -1,3 +1,4 @@
+/* HEADER START */
 header {
     height: 200px;
     border: 1px solid black;
@@ -25,4 +26,21 @@ header > div {
     width: calc(33% - 33px);
     border: 1px solid black;
     background-color: brown;
+}
+/* HEADER END */
+
+/* MAIN START */
+main {
+    display: flex;
+    width: 100vw;
+}
+#navigation {
+    background-color: aquamarine;
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+}
+#main-content {
+    width: calc(100% - 250px);
+    padding: 20px;
 }
