@@ -44,3 +44,19 @@ main {
     width: calc(100% - 250px);
     padding: 20px;
 }
+/* MAIN END */
+
+/* FOOTER START */
+footer{
+    background-color: peru;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+footer nav{
+    display: flex;
+    align-items: center;
+}
+footer nav a{
+    margin: 5px;
+}
